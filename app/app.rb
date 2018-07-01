@@ -2,6 +2,7 @@
 require 'rubygems'
 require 'bundler'
 require 'sinatra/base'
+require 'zip'
 
 # Let Bundler do it's magic
 Bundler.require(:default)
