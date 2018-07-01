@@ -1,10 +1,10 @@
 require_relative 'user'
 
-User.delete_all
+PiJob.delete_all
 
-User.create(
-  user_id: "001",
-  firstname: "Test",
-  lastname: "User",
-  email: "test.user@demo.com"
+PiJob.create(
+  num: "123",
+  pi_value: "3.14",
+  status: "complete",
+  success: "true"
 )
