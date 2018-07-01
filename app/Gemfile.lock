@@ -27,7 +27,7 @@ GEM
     origin (2.2.0)
     puma (3.4.0)
     rack (1.6.4)
-    rack-protection (1.5.3)
+    rack-protection (1.5.5)
       rack
     sinatra (1.4.7)
       rack (~> 1.5)
