@@ -1,0 +1,9 @@
+development:
+  clients:
+    default:
+      uri: <%= "mongodb://mongodb:27017/#{ENV['MONGODB_NAME']}" %>
+
+production:
+  clients:
+    default:
+      uri: <%= "mongodb://#{ENV['MONGODB_USER']}:#{ENV['MONGODB_PW']}@#{ENV['MONGODB_ADDR']}:#{ENV['MONGODB_PORT']}/#{ENV['MONGODB_NAME']}" %>

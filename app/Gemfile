@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+
+gem 'foreman'
+gem 'puma'
+gem 'sinatra', :require => 'sinatra/base'
+gem 'mongoid'
